@@ -1,0 +1,14 @@
+<form [formGroup]="form" class="flex flex-col space-y-2">
+  <div class="flex flex-row space-x-2 items-center">
+    <input #title id="note-title" type="text" placeholder="Note Title"
+      class="bg-white border border-black/10 rounded p-2 w-full" formControlName="editorTitle"
+      [(ngModel)]="notesService.note.title" />
+    <p class="italic bg-opacity-50 text-xs">{{ notesService.note._id == "" ? "New" : notesService.note._id }}</p>
+    <button class="py-2 px-4 border border-black/10 hover:bg-black/10 rounded" id="note-save" type="button"
+      (click)="saveNote(title.value)">Save</button>
+  </div>
+  <div class="NgxEditor__Wrapper">
+    <ngx-editor-menu [editor]="editor" [toolbar]=toolbar></ngx-editor-menu>
+    <ngx-editor [editor]="editor" formControlName="editorContent" [(ngModel)]="notesService.note.content"></ngx-editor>
+  </div>
+</form>

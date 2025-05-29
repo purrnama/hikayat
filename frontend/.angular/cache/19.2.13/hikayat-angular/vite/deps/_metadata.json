@@ -1,0 +1,70 @@
+{
+  "hash": "6fcd82aa",
+  "configHash": "717e8952",
+  "lockfileHash": "20ff1462",
+  "browserHash": "3760b31d",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "bb3633f4",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "32cf3ca4",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7094a10f",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "dda65038",
+      "needsInterop": false
+    },
+    "ngx-editor": {
+      "src": "../../../../../../node_modules/ngx-editor/fesm2022/ngx-editor.mjs",
+      "file": "ngx-editor.js",
+      "fileHash": "a5577957",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "15d0740e",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "8d390c71",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-MZX6UFZY": {
+      "file": "chunk-MZX6UFZY.js"
+    },
+    "chunk-L2YUCBJA": {
+      "file": "chunk-L2YUCBJA.js"
+    },
+    "chunk-UAZALHY5": {
+      "file": "chunk-UAZALHY5.js"
+    },
+    "chunk-25AMFDXL": {
+      "file": "chunk-25AMFDXL.js"
+    },
+    "chunk-SZGOSCL4": {
+      "file": "chunk-SZGOSCL4.js"
+    },
+    "chunk-LQ4TZU2V": {
+      "file": "chunk-LQ4TZU2V.js"
+    }
+  }
+}
